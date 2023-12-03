@@ -221,12 +221,10 @@ class _First extends State<First> {
                       onTap: () {
                         setState(() {
                           selectedCategory = item[index + 1]['title'];
-                          if (selectedCategory == 'All') {
-                            filteredMedicines = medicines
-                                .where((medicine) =>
+                            filteredMedicines = medicines.where((medicine) =>
                                     medicine.category == selectedCategory)
                                 .toList();
-                          }
+                        
                         });
                         {
                           Navigator.of(context).push(MaterialPageRoute(
