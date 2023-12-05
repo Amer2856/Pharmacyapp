@@ -1,132 +1,66 @@
-# flutter-bloc-app-template 🤖
-This is a basic Flutter project template that uses the BLoC pattern architecture for state management. 
-It is a good starting point for creating a new Flutter app that uses BLoC for state management.
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-This template is focused on delivering a project with **static analysis** and **continuous integration** already in place.
-
-[![style: lint][lint-style-badge]][lint-style-link]
-[![codecov][codecov-badge]][codecov-link]
-[![CI][ci-badge]][ci-link]
-[![CodeFactor][codefactor-badge]][codefactor-link]
-[![License][license-badge]][license-link]
-[![style: effective dart][style-badge]][style-link]
-[![GitHub forks][forks-badge]][forks-link]
-[![GitHub stars][stars-badge]][stars-link]
-
-## How to use 🐾
-Just click on [![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/ashtanko/flutter_bloc_app_template/generate) button to create a new repo starting from this template.
-
-## Features 🦄
-- Theme support
-- BLoC pattern [**bloc**](https://pub.dev/packages/bloc)
-- Service Locator using [**get_it**](https://pub.dev/packages/get_it)
-- Localization using [**intl**](https://pub.dev/packages/intl)
-- CI Setup with GitHub Actions
-- Codecov Setup with GitHub Actions
-- Unit test coverage
-
-## Configuration
-The template has 2 flavors:
-- dev
-- prod
-
-The template has 4 build variants:
-- dev
-- qa
-- staging
-- release
-
-For example dev configuration for Android Studio looks like:
-
-<p align="left">
-<img src="/preview/config/dev.png" width="32%"/>
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Android Screenshots
-<p align="left">
-<img src="/preview/android/widgets.jpg" width="32%"/>
-<img src="/preview/android/light_theme.png" width="32%"/>
-<img src="/preview/android/dark_theme.png" width="32%"/>
-<img src="/preview/android/yellow_theme.png" width="32%"/>
-<img src="/preview/android/settings.png" width="32%"/>
-<img src="/preview/android/theme_bottom_sheet.png" width="32%"/>
-</p>
+## About Laravel
 
-## iOS Screenshots
-<p align="left">
-<img src="/preview/ios/widgets.png" width="32%"/>
-<img src="/preview/ios/light_theme.png" width="32%"/>
-<img src="/preview/ios/dark_theme.png" width="32%"/>
-<img src="/preview/ios/yellow_theme.png" width="32%"/>
-<img src="/preview/ios/settings.png" width="32%"/>
-<img src="/preview/ios/theme_bottom_sheet.png" width="32%"/>
-</p>
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-## Static Analysis 🔍
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-This template is using [**analyzer**](https://pub.dev/packages/analyzer)
+## Learning Laravel
 
-Supported Lint [**Rules**](https://dart-lang.github.io/linter/lints/)
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-Supported Dart Code [**Metrics**](https://dartcodemetrics.dev/docs/getting-started/introduction)
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-Dart [**Lint**](https://github.com/passsy/dart-lint)
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## CI ⚙️
-This template is using [**GitHub Actions**](https://github.com/ashtanko/flutter_app_skeleton/actions) as CI. You don't need to setup any external service and you should have a running CI once you start using this template.
+## Laravel Sponsors
 
-## How to build 🛠️
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-The Project uses [**FlutterGen**](https://github.com/FlutterGen/flutter_gen) to generate localizations, dependencies and mocks
+### Premium Partners
 
-Activate flutter_gen using dart pub global activate flutter_gen command if you haven't done that before.
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
 
-after add export PATH="$PATH":"$HOME/.pub-cache/bin" to bash_profile
+## Contributing
 
-``` bash
-# clean project, install dependencies & generate sources
-make
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-# generate localizations, dependencies, image assets, colors, fonts
-make gen
+## Code of Conduct
 
-# generate localizations
-make localize
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-# analyze the project
-check
-```
+## Security Vulnerabilities
 
-## Reminders 🧠
-Change name in pubspec.yaml file
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-Remove anything you don't need
+## License
 
-Configure analysis_options.yaml for your needs
-
-## Contributing 🤝
-
-Feel free to open a issue or submit a pull request for any bugs/improvements.
-
-## License 📄
-
-This template is licensed under the MIT License - see the [License](LICENSE) file for details.
-Please note that the generated template is offering to start with a MIT license but you can change it to whatever you wish, as long as you attribute under the MIT terms that you're using the template.
-
-[lint-style-badge]: https://img.shields.io/badge/style-lint-4BC0F5.svg
-[lint-style-link]: https://pub.dev/packages/lint
-[codecov-badge]: https://codecov.io/gh/ashtanko/flutter_bloc_app_template/branch/main/graph/badge.svg?token=T68Rqwj7Ll
-[codecov-link]: https://codecov.io/gh/ashtanko/flutter_bloc_app_template
-[ci-badge]: https://github.com/ashtanko/flutter_bloc_app_template/actions/workflows/ci.yml/badge.svg
-[ci-link]: https://github.com/ashtanko/flutter_bloc_app_template/actions/workflows/ci.yml
-[codefactor-badge]: https://www.codefactor.io/repository/github/ashtanko/flutter_bloc_app_template/badge
-[codefactor-link]: https://www.codefactor.io/repository/github/ashtanko/flutter_bloc_app_template
-[license-badge]: https://img.shields.io/github/license/dart-code-checker/dart-code-metrics
-[license-link]: https://github.com/dart-code-checker/dart-code-metrics/blob/master/LICENSE
-[style-badge]: https://img.shields.io/badge/style-effective_dart-40c4ff.svg
-[style-link]: https://pub.dev/packages/effective_dart
-[forks-badge]: https://img.shields.io/github/forks/ashtanko/flutter_bloc_app_template
-[forks-link]: https://github.com/ashtanko/flutter_bloc_app_template/network
-[stars-badge]: https://img.shields.io/github/stars/ashtanko/flutter_bloc_app_template
-[stars-link]: https://github.com/ashtanko/flutter_bloc_app_template/stargazers
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
